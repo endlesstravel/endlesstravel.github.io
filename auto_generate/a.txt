@@ -1,0 +1,102 @@
+
+> love2d-cs-xml-to-md@1.0.0 start D:\Love2DCS_Dev\endlesstravel.github.io\auto_generate
+> node main.js
+
+-----------------Love.Resource.NewSource(System.String,Love.SourceType)-----------------
+
+            Creates a new Source from file name. 
+            
+-----------------Love.Resource.NewFileData(System.String)-----------------
+
+            Creates a new FileData object. This function will read file from standard C# IO File system.
+            
+-----------------Love.Resource.Append(System.String,System.Byte[])-----------------
+
+            Append data to an existing file. 
+            
+-----------------Love.Resource.Append(System.String,System.String)-----------------
+
+            Append data to an existing file. 
+            
+-----------------Love.Resource.Append(System.String,System.String,System.Text.Encoding)-----------------
+
+            Append data to an existing file. 
+            
+-----------------Love.Resource.CreateDirectory(System.String)-----------------
+Recursively creates a directory.When called with "a/b" it creates both "a" and "a/b", if they don't exist already.
+-----------------Love.Resource.GetDirectoryItems(System.String)-----------------
+Returns a table with the names of files and subdirectories in the specified path. The array is not sorted in any way; the order is undefined.If the path passed to the function exists in the game and the save directory, it will list the files and directories from both places.
+-----------------Love.Resource.GetInfo(System.String)-----------------
+
+            Gets information about the specified file or directory.
+            
+-----------------Love.Resource.Lines(System.Action{System.String},System.String)-----------------
+
+            Iterate over the lines in a file.
+            
+-----------------Love.Resource.Read(System.String)-----------------
+
+            Read the all contents of a file.
+            
+-----------------Love.Resource.Read(System.String,System.Int32)-----------------
+
+            Read the all contents of a file.
+            
+-----------------Love.Resource.Remove(System.String)-----------------
+
+            Removes a file (or directory).
+            
+-----------------Love.Resource.Write(System.String,System.Byte[])-----------------
+
+            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.
+            
+-----------------Love.Resource.Write(System.String,System.String)-----------------
+
+            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.
+            
+-----------------Love.Resource.Write(System.String,System.String,System.Text.Encoding)-----------------
+
+            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.
+            
+-----------------Love.Resource.NewRasterizer(System.String)-----------------
+
+            Creates a new Rasterizer.
+            
+-----------------Love.Resource.NewFont(System.String,System.Int32,Love.HintingMode)-----------------
+
+            Create a new TrueType font.
+            
+-----------------Love.Resource.NewBMFont(System.String,System.String[])-----------------
+
+            
+-----------------Love.Resource.NewImage(System.String,System.Boolean,System.Boolean)-----------------
+
+            Creates a new Image from a filepath.
+            
+-----------------Love.Resource.NewImageFont(System.String,System.String,System.Int32)-----------------
+
+            Creates a new Font by loading a specifically formatted image.
+            
+            
+            In versions prior to 0.9.0, LÖVE expects ISO 8859-1 encoding for the glyphs string.	This function can be slow if it is called repeatedly, such as from Scene.Update. If you need to use a specific resource often, create it once and store it somewhere it can be reused!
+-----------------Love.Resource.NewImageData(System.String)-----------------
+
+            Creates a new  object.
+            [](#)
+-----------------Love.Resource.NewCompressedData(System.String)-----------------
+
+            Create a new  object from a compressed image file. LÖVE supports several compressed texture formats, enumerated in the  page.
+            [](#)
+-----------------Love.Resource.EncodeToFile(System.String,Love.ImageData,Love.ImageFormat)-----------------
+
+             Encodes the ImageData and writes it to the path.
+             
+-----------------Love.Resource.NewCursor(System.String,System.Int32,System.Int32)-----------------
+Creates a new hardware Cursor object from an image file or ImageData.Hardware cursors are framerate-independent and work the same way as normal operating system cursors. Unlike drawing an image at the mouse's current coordinates, hardware cursors never have visible lag between when the mouse is moved and when the cursor position updates, even at low framerates.The hot spot is the point the operating system uses to determine what was clicked and at what position the mouse cursor is. For example, the normal arrow pointer normally has its hot spot at the top left of the image, but a crosshair cursor might have it in the middle.
+-----------------Love.Resource.NewDecoder(System.String,System.Int32)-----------------
+
+            Attempts to find a decoder for the encoded sound data in the specified file.
+            
+-----------------Love.Resource.NewSoundData(System.String)-----------------
+ Creates a new SoundData.It's also possible to create SoundData with a custom sample rate, channel and bit depth.The sound data will be decoded to the memory in a raw format. It is recommended to create only short sounds like effects, as a 3 minute song uses 30 MB of memory this way.
+[{"name":"Love.Resource.NewSource(System.String,Love.SourceType)","summary":"\r\n            Creates a new Source from file name. \r\n            "},{"name":"Love.Resource.NewFileData(System.String)","summary":"\r\n            Creates a new FileData object. This function will read file from standard C# IO File system.\r\n            "},{"name":"Love.Resource.Append(System.String,System.Byte[])","summary":"\r\n            Append data to an existing file. \r\n            "},{"name":"Love.Resource.Append(System.String,System.String)","summary":"\r\n            Append data to an existing file. \r\n            "},{"name":"Love.Resource.Append(System.String,System.String,System.Text.Encoding)","summary":"\r\n            Append data to an existing file. \r\n            "},{"name":"Love.Resource.CreateDirectory(System.String)","summary":"Recursively creates a directory.When called with \"a/b\" it creates both \"a\" and \"a/b\", if they don't exist already."},{"name":"Love.Resource.GetDirectoryItems(System.String)","summary":"Returns a table with the names of files and subdirectories in the specified path. The array is not sorted in any way; the order is undefined.If the path passed to the function exists in the game and the save directory, it will list the files and directories from both places."},{"name":"Love.Resource.GetInfo(System.String)","summary":"\r\n            Gets information about the specified file or directory.\r\n            "},{"name":"Love.Resource.Lines(System.Action{System.String},System.String)","summary":"\r\n            Iterate over the lines in a file.\r\n            "},{"name":"Love.Resource.Read(System.String)","summary":"\r\n            Read the all contents of a file.\r\n            "},{"name":"Love.Resource.Read(System.String,System.Int32)","summary":"\r\n            Read the all contents of a file.\r\n            "},{"name":"Love.Resource.Remove(System.String)","summary":"\r\n            Removes a file (or directory).\r\n            "},{"name":"Love.Resource.Write(System.String,System.Byte[])","summary":"\r\n            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.\r\n            "},{"name":"Love.Resource.Write(System.String,System.String)","summary":"\r\n            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.\r\n            "},{"name":"Love.Resource.Write(System.String,System.String,System.Text.Encoding)","summary":"\r\n            Write data to a file in the save directory. If the file existed already, it will be completely replaced by the new contents.\r\n            "},{"name":"Love.Resource.NewRasterizer(System.String)","summary":"\r\n            Creates a new Rasterizer.\r\n            "},{"name":"Love.Resource.NewFont(System.String,System.Int32,Love.HintingMode)","summary":"\r\n            Create a new TrueType font.\r\n            "},{"name":"Love.Resource.NewBMFont(System.String,System.String[])","summary":"\r\n            "},{"name":"Love.Resource.NewImage(System.String,System.Boolean,System.Boolean)","summary":"\r\n            Creates a new Image from a filepath.\r\n            "},{"name":"Love.Resource.NewImageFont(System.String,System.String,System.Int32)","summary":"\r\n            Creates a new Font by loading a specifically formatted image.\r\n            \r\n            \r\n            In versions prior to 0.9.0, LÖVE expects ISO 8859-1 encoding for the glyphs string.\tThis function can be slow if it is called repeatedly, such as from Scene.Update. If you need to use a specific resource often, create it once and store it somewhere it can be reused!"},{"name":"Love.Resource.NewImageData(System.String)","summary":"\r\n            Creates a new  object.\r\n            [](#)"},{"name":"Love.Resource.NewCompressedData(System.String)","summary":"\r\n            Create a new  object from a compressed image file. LÖVE supports several compressed texture formats, enumerated in the  page.\r\n            [](#)"},{"name":"Love.Resource.EncodeToFile(System.String,Love.ImageData,Love.ImageFormat)","summary":"\r\n             Encodes the ImageData and writes it to the path.\r\n             "},{"name":"Love.Resource.NewCursor(System.String,System.Int32,System.Int32)","summary":"Creates a new hardware Cursor object from an image file or ImageData.Hardware cursors are framerate-independent and work the same way as normal operating system cursors. Unlike drawing an image at the mouse's current coordinates, hardware cursors never have visible lag between when the mouse is moved and when the cursor position updates, even at low framerates.The hot spot is the point the operating system uses to determine what was clicked and at what position the mouse cursor is. For example, the normal arrow pointer normally has its hot spot at the top left of the image, but a crosshair cursor might have it in the middle."},{"name":"Love.Resource.NewDecoder(System.String,System.Int32)","summary":"\r\n            Attempts to find a decoder for the encoded sound data in the specified file.\r\n            "},{"name":"Love.Resource.NewSoundData(System.String)","summary":" Creates a new SoundData.It's also possible to create SoundData with a custom sample rate, channel and bit depth.The sound data will be decoded to the memory in a raw format. It is recommended to create only short sounds like effects, as a 3 minute song uses 30 MB of memory this way."}]

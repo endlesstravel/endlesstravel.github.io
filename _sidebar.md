@@ -1,7 +1,5 @@
 * [Home](/README.md) 
     * [Home](/README.md)
-    * [Getting Started](/tutorial/README.md)
-    * [Module API](/module/README.md)
     
 * [Getting Started](/tutorial/README.md)
     * [01. Setup on Visual Studio](/tutorial/01.install.md)

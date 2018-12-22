@@ -1,6 +1,6 @@
 ![](/img/logo.png) 
     
-> Love2dCS is a C# Wrapper for LÖVE game engine, it can be used your C# based Application.
+> [Love2dCS](https://github.com/endlesstravel/Love2dCS) is a C# Wrapper for LÖVE game engine, it can be used your C# based Application. This document is still in the works.
 
 > It’s pretty easy to get started with LÖVE, just check out these code snippets.
 
@@ -31,7 +31,7 @@ Drawing an image
 
         public override void Draw()
         {
-            Graphics.Draw(image);
+            Graphics.Draw(image, 300, 200);
         }
 
         static void Main(string[] args)
@@ -48,7 +48,7 @@ Playing a sound
     using Love;
     class TestScene : Scene
     {
-        Source source = Resource.NewSource("test.mp3", SourceType.Static);
+        Source source = Resource.NewSource("test.mp3", SourceType.Stream);
 
         public override void Load()
         {

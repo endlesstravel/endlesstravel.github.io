@@ -5,6 +5,8 @@
     * [01. Setup on Visual Studio](/tutorial/01.install.md)
     * [02. Hello World](/tutorial/02.hello-world.md)
     * [03. Boot Config](/tutorial/03.boot-config.md)
+    * [04. Basic Graphics](/tutorial/04.basic-graphics.md)
+    * [04. Draw with image file](/tutorial/04.load-image.md)
 
 * [Module API](/module/README.md)
     * [Love.Audio](/module/Love.Audio.md)

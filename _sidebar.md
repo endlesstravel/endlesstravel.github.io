@@ -7,6 +7,7 @@
     * [03. Boot Config](/tutorial/03.boot-config.md)
     * [04. Basic Graphics](/tutorial/04.basic-graphics.md)
     * [04. Draw with image file](/tutorial/04.load-image.md)
+    * [05. Work with lua](/tutorial/05.use-lua.md)
 
 * [Module API](/module/README.md)
     * [Love.Audio](/module/Love.Audio.md)

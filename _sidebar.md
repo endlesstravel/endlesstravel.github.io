@@ -1,6 +1,4 @@
-* [Home](/README.md) 
-    * [Home](/README.md)
-    
+* [Home](/README.md)
 * [Getting Started](/tutorial/README.md)
     * [01. Setup on Visual Studio](/tutorial/01.install.md)
     * [02. Hello World](/tutorial/02.hello-world.md)
@@ -8,7 +6,6 @@
     * [04. Basic Graphics](/tutorial/04.basic-graphics.md)
     * [04. Draw with image file](/tutorial/04.load-image.md)
     * [05. Work with lua](/tutorial/05.use-lua.md)
-
 * [Module API](/module/README.md)
     * [Love.Audio](/module/Love.Audio.md)
     * [Love.Event](/module/Love.Event.md)
@@ -23,7 +20,7 @@
     * [Love.Touch](/module/Love.Touch.md)
     * [Love.Video](/module/Love.Video.md)
     * [Love.Window](/module/Love.Window.md)
-    * ---------------------------------------
+* [Build-in module](/module/build-in-module-index.md)
     * [Love.Resource](/module/Love.Resource.md)
     * [Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md)
     * [Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md)

@@ -1,6 +1,6 @@
 * [Home](/README.md)
 * [Getting Started](/tutorial/README.md)
-    * [01. Setup on Visual Studio](/tutorial/01.install.md)
+    * [01. Create C# App](/tutorial/01.install.md)
     * [02. Hello World](/tutorial/02.hello-world.md)
     * [03. Boot Config](/tutorial/03.boot-config.md)
     * [04. Basic Graphics](/tutorial/04.basic-graphics.md)

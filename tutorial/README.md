@@ -1,2 +1,1 @@
-
-Here you can learn how to write code with Love2dCS
+Here we will learn how to write games with Love2dCS!

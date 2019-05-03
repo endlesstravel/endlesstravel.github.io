@@ -1,6 +1,6 @@
 ![](/img/logo.png)
 
-> [Love2dCS](https://github.com/endlesstravel/Love2dCS) is a C# Wrapper for LÖVE game engine, it can be used your C# based Application. (This document is still in the works.)
+> [Love2dCS](https://github.com/endlesstravel/Love2dCS) is a C# wrapper for [LÖVE](https://love2d.org/), an awesome game framework. You can use it in your C#-based applications. (This document is still in the works.)
 
 
 ## 🎫 Function Modules
@@ -8,7 +8,7 @@
 |module              | description                      |
 |:-------------------|:-----------------------------------|
 |[Love.Audio](/module/Love.Audio.md)  |Provides an interface to output sound to the user's speakers.
-|[Love.Event](/module/Love.Event.md)	|Manages events, like keypresses.
+|[Love.Event](/module/Love.Event.md)	|Manages events, like key presses.
 |[Love.Filesystem](/module/Love.Filesystem.md)	|Provides an interface to the user's filesystem.
 |[Love.Font](/module/Love.Font.md)	|Allows you to work with fonts.
 |[Love.Graphics](/module/Love.Graphics.md)	|Drawing of shapes and images, management of screen geometry.
@@ -22,13 +22,13 @@
 |[Love.Touch](/module/Love.Touch.md)	|Provides an interface to touch-screen presses.
 |[Love.Video](/module/Love.Video.md)	|This module is responsible for decoding and streaming video files.
 |[Love.Window](/module/Love.Window.md)	|Provides an interface for the program's window.
-|[Love.Resource](/module/Love.Resource.md) | Load resouce file from path like C:/love-logo.png
-|[Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md) | Postprocessing effect repository for LÖVE.
-|[Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md) | A small FPS graphing utility for LOVE
-|[Love.Misc.QuadTree](/module/Love.Misc.QuadTree.md) | in dev
+|[Love.Resource](/module/Love.Resource.md) |Allows to load resources through standard C# IO (e.g., load a resource file from a path like `C:/love-logo.png`
+|[Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md) |A post-processing effect repository for LÖVE.
+|[Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md) |A small FPS graphing utility for LÖVE.
+|[Love.Misc.QuadTree](/module/Love.Misc.QuadTree.md) |(Work in progress.)
 
 
-> It’s pretty easy to get started with LÖVE, just check out these code snippets.
+> It’s pretty easy to get started with LÖVE! Just check out these code snippets.
 
 🆚 Drawing text
 ```C#
@@ -37,7 +37,7 @@
     {
         public override void Draw()
         {
-            Graphics.Print("Hello World!", 400, 300);
+            Graphics.Print("Hello, World!", 400, 300);
         }
 
         static void Main(string[] args)

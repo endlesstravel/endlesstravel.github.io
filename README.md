@@ -25,7 +25,6 @@
 |[Love.Resource](/module/Love.Resource.md) |Allows to load resources through standard C# IO (e.g., load a resource file from a path like `C:/love-logo.png`
 |[Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md) |A post-processing effect repository for LÖVE.
 |[Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md) |A small FPS graphing utility for LÖVE.
-|[Love.Misc.QuadTree](/module/Love.Misc.QuadTree.md) |(Work in progress.)
 
 
 > It’s pretty easy to get started with LÖVE! Just check out these code snippets.

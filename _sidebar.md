@@ -6,6 +6,7 @@
     * [04. Basic Graphics](/tutorial/04.basic-graphics.md)
     * [04. Drawing Images](/tutorial/04.load-image.md)
     * [05. Working with Lua](/tutorial/05.use-lua.md)
+    * [06. Mouse input](/tutorial/06.mouse-input.md)
 * [Module API](/module/README.md)
     * [Love.Audio](/module/Love.Audio.md)
     * [Love.Event](/module/Love.Event.md)

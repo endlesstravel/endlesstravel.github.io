@@ -1,11 +1,12 @@
 ![](/img/logo.png)
-
 > [Love2dCS](https://github.com/endlesstravel/Love2dCS) is a C# wrapper for [LÖVE](https://love2d.org/), an awesome game framework. You can use it in your C#-based applications. (This document is still in the works.)
 
 ## 🖥 Compatible table
-|                     |  widnows-x86  |windows-x64    |ubuntu-16-x64  |ubuntu-18-x64  |ubuntu-19-x64  |
+|                     |widnows-x86/x64|  MacOS-x64    |ubuntu-16-x64  |ubuntu-18-x64  |ubuntu-19-x64  |
 |---------------------|---------------|---------------|---------------|---------------|---------------|
-|.NET Framework 4.5+  |√              |√              |               |               |               |
+|.net standard 1.0    |√              |√              |√              |√              |√              |
+|.NET Framework 4.5.1+|√              |               |               |               |               |
+|Mono 4.6+            |?              |?              |?              |?              |?              |
 |.dotnet core 2.0+    |√              |√              |√              |√              |?              |
 
 ## 🎫 Function Modules

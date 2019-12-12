@@ -6,8 +6,6 @@
     1. The root folder of the source directory archive /
     2.  The root folder of the game's save directory. Files that are opened for write or append will always be created in the save directory. The same goes for other operations that involve writing to the filesystem, like [Love.FileSystem](/module/Love.FileSystem?id=lovefilesystemcreatedirectorysystembyte). It is recommended to set your game's identity first.  You can set it with [Love.FileSystem](/module/Love.FileSystem?id=lovefilesystemsetidentitysystembytesystemboolean) as well.
 
-!> if you need load resource from path like `C:/xxx.png` , you can use [`Love.Resource`](/module/Love.Resource) Module
-
 ------------------------------------------------
 #### Love.FileSystem.NewFileData(System.String)
 

@@ -28,7 +28,7 @@
 |[Love.Touch](/module/Love.Touch.md)	|Provides an interface to touch-screen presses.
 |[Love.Video](/module/Love.Video.md)	|This module is responsible for decoding and streaming video files.
 |[Love.Window](/module/Love.Window.md)	|Provides an interface for the program's window.
-|[Love.Resource](/module/Love.Resource.md) |Allows to load resources through standard C# IO (e.g., load a resource file from a path like `C:/love-logo.png`
+|[Love.Resource](/module/Love.Resource.md) |save/load data utils
 |[Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md) |A post-processing effect repository for LÖVE.
 |[Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md) |A small FPS graphing utility for LÖVE.
 
@@ -58,7 +58,7 @@
     using Love;
     class TestScene : Scene
     {
-        Image image = Resource.NewImage("test.png");
+        Image image = Graphics.NewImage("test.png");
 
         public override void Draw()
         {
@@ -79,7 +79,7 @@
     using Love;
     class TestScene : Scene
     {
-        Source source = Resource.NewSource("test.mp3", SourceType.Stream);
+        Source source = Audio.NewSource("test.mp3", SourceType.Stream);
 
         public override void Load()
         {

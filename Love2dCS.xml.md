@@ -3238,7 +3238,7 @@ Encodes the ImageData and writes it to the path.
                  {
                      if (key == KeyConstant.F12)
                      {
-                         Resource.EncodeToFile("D:/a.png", canvas.NewImageData(), ImageFormat.PNG);
+                         Resource.EncodeToFile("D:/a.png", canvas, ImageFormat.PNG);
                      }
                  }
             

@@ -7,6 +7,6 @@
 
 |build-in module     | description                      |
 |:-------------------|:-----------------------------------|
-|[Love.Resource](/module/Love.Resource.md) | Load resouce file from path like C:/love-logo.png
+|[Love.Resource](/module/Love.Resource.md) | save/load data utils
 |[Love.Misc.Moonshine](/module/Love.Misc.Moonshine.md) | Postprocessing effect repository for LÖVE.
 |[Love.Misc.FPSGraph](/module/Love.Misc.FPSGraph.md) | A small FPS graphing utility for LOVE

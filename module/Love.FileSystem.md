@@ -2,9 +2,7 @@
 # Love.FileSystem
 
  
-> Provides an interface to the user's filesystem. his module provides access to files in specific places:
-    1. The root folder of the source directory archive /
-    2.  The root folder of the game's save directory. Files that are opened for write or append will always be created in the save directory. The same goes for other operations that involve writing to the filesystem, like [Love.FileSystem](/module/Love.FileSystem?id=lovefilesystemcreatedirectorysystembyte). It is recommended to set your game's identity first.  You can set it with [Love.FileSystem](/module/Love.FileSystem?id=lovefilesystemsetidentitysystembytesystemboolean) as well.
+> Provides an interface to the user's filesystem. 
 
 ------------------------------------------------
 #### Love.FileSystem.NewFileData(System.String)
@@ -21,36 +19,6 @@
 
 
 ------------------------------------------------
-#### Love.FileSystem.NewFile(System.Byte[],Love.FileMode)
-
-`Summary`: Creates a new File object. It needs to be opened before it can be accessed. (UTF-8 byte array version)
-
-
-`Arguments`
-
-* `filename`: The filename of the file.(UTF-8 byte array needed)
-* `fmode_type`: The mode to open the file in.
-
-
-
-
-
-------------------------------------------------
-#### Love.FileSystem.NewFileData(System.Byte[],System.Byte[])
-
-`Summary`: Creates a new FileData object.
-
-
-`Arguments`
-
-* `contents`: The contents of the file.
-* `filename`: The name of the file.
-
-
-
-
-
-------------------------------------------------
 #### Love.FileSystem.NewFileData(Love.File)
 
 `Summary`: Creates a new FileData object.
@@ -59,60 +27,6 @@
 `Arguments`
 
 * `file`: The file.
-
-
-
-
-
-------------------------------------------------
-#### Love.FileSystem.Init(System.Byte[])
-
-`Summary`: Initializes FileSystem, will be called internally, so should not be used explictly.
-
-
-`Arguments`
-
-* `args`: 
-
-
-
-
-
-------------------------------------------------
-#### Love.FileSystem.IsFused
-
-`Summary`: Gets whether the game is in fused mode or not.
-            If a game is in fused mode, its save directory will be directly in the Appdata directory instead of Appdata/LOVE/. The game will also be able to load C Lua dynamic libraries which are located in the save directory.
-            A game is in fused mode if the source .love has been fused to the executable (see Game Distribution), or if "--fused" has been given as a command-line argument when starting the game.
-
-
-
-
-
-
-------------------------------------------------
-#### Love.FileSystem.SetIdentity(System.Byte[],System.Boolean)
-
-`Summary`: Sets the write directory for your game. Note that you can only set the name of the folder to store your files in, not the location.
-
-
-`Arguments`
-
-* `path`: The new identity that will be used as write directory.(UTF-8 byte array needed)
-* `append`: Whether the identity directory will be searched when reading a filepath before or after the game's source directory and any currently.
-            TRUE: results in searching source before searching save directory; FALSE: results in searching game save directory before searching source directorymounted archives.
-
-
-
-
-
-------------------------------------------------
-#### Love.FileSystem.GetIdentity
-
-`Summary`: Gets the write directory name for your game. Note that this only returns the name of the folder to store your files in, not the full path.
-
-
-
 
 
 

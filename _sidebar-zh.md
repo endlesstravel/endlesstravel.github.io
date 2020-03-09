@@ -1,6 +1,6 @@
 * [主页](/README-zh.md)
 * [简介](/tutorial/README-zh.md)
-    * [01. 配置和安装 (未完成)](/tutorial/01.install-zh.md)
+    * [01. 配置和安装](/tutorial/01.install-zh.md)
     * [02. Hello World (未完成)](/tutorial/02.hello-world-zh.md)
     * [03. 启动配置 (未完成)](/tutorial/03.boot-config-zh.md)
     * [04. 基本绘图 (未完成)](/tutorial/04.basic-graphics-zh.md)

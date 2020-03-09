@@ -1,5 +1,5 @@
 ![](/img/logo.png)
-> [Love2dCS](https://github.com/endlesstravel/Love2dCS) 是 [LÖVE](https://love2d.org/) 引擎的 C# 包装器。
+> [Love2dCS](https://github.com/endlesstravel/Love2dCS) 是 [LÖVE](https://love2d.org/) 引擎的 C#/F# 包装器。
 
 > Love2dCS 设计上紧紧仿照于原始 [LÖVE API](https://love2d.org/wiki/) 定制, [LÖVE 引擎的文档百科]((https://love2d.org/wiki/))，大多数情况可以直接参考 LÖVE API 来使用
 
